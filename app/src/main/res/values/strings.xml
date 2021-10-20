@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImageGallery</string>
+    <string name="image">img</string>
+    <string name="image_1">image_1</string>
+    <string name="img_2">image_2</string>
+    <string name="image_3">image_3</string>
+    <string name="image_4">image_4</string>
+    <string name="image_5">image_5</string>
+    <string name="image_6">image_6</string>
+</resources>

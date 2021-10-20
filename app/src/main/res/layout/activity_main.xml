@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_1"
+                android:contentDescription="@string/image_1" />
+
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_2"
+                android:contentDescription="@string/img_2" />
+
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_3"
+                android:contentDescription="@string/image_3" />
+
+            <ImageView
+                android:id="@+id/img_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_4"
+                android:contentDescription="@string/image_4" />
+
+            <ImageView
+                android:id="@+id/img_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_5"
+                android:contentDescription="@string/image_5" />
+
+            <ImageView
+                android:id="@+id/img_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_6"
+                android:contentDescription="@string/image_6" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
